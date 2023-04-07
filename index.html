@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Joan Ayebola</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+
+<body class="body">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-fixed-top navbar-inverse">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Joan</a>
+      <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" "></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="hero d-flex justify-content-center align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 hero-image">
+          <div class="hero-image-container text-right">
+            <img src="hero image.png" alt="Hero Image" class="img-fluid animate__animated animate__slideInRight">
+
+          </div>
+        </div>
+        <div class="col-md-6 hero-text">
+          <h1 class="animate__animated animate__fadeIn " style="color: var(--other-color)">Welcome to My Portfolio</h1>
+          <p class="lead animate__animated animate__fadeIn" style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: var(--other-color)">
+            <span style="font-size: 30px; color: var(--other-color);"> Hi, my name is
+              <span style="color:  var(--hover); font-weight: 600;">Joan.</span> </span> <br>I am a web developer
+            specializing
+            in frontend development
+          </p>
+          <a href="#portfolio" class="btn btn-primary btn-lg animate__animated animate__fadeIn">View My Work</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about py-5" style=" color: var(--other-color)">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 profile-picture">
+          <img src="profile picture.jpg" alt="Profile Picture"
+            class="img-fluid rounded-circle animate__animated animate__zoomIn">
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <h2 class="animate__animated animate__fadeInUp">About Me</h2>
+          <p class=" animate__animated animate__fadeInUp">I am a frontend developer with a passion for creating
+            beautiful and intuitive websites. My skills include HTML, CSS, JavaScript, Bootstrap and Tailwind CSS. I am
+            always
+            eager to learn new technologies and frameworks.</p>
+          <p class="animate__animated animate__fadeInUp">In my free time, I enjoy reading, experimenting with new
+            recipes in the kitchen and watching korean drama. Feel free to get in touch if you'd like to work together
+            on a project!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="education" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5 animate__animated animate__fadeInUp">
+        <h2 class="text-uppercase" style="color: var(--other-color);">Education</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4 animate__animated animate__fadeInLeft " style=" color: var(--other-color)">
+          <div class="card card-body border-0 shadow-lg h-100" style="background-color: var(--project-color); " >
+            <div class="text-center" >
+              <span class="badge badge-primary mb-3">Bachelor's Degree</span>
+              <h4 class="card-title">Computer Science</h4>
+              <p class="card-text"> Olusegun Agagu Univeristy of Science and Technology</p>
+              <p class="card-text"><small class="text-muted">Expected to graduated in 2025</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 animate__animated animate__fadeInUp" style=" color: var(--other-color)">
+          <div class="card card-body border-0 shadow-lg h-100" style="background-color: var(--project-color); ">
+            <div class="text-center">
+              <span class="badge badge-primary mb-3">Udemy</span>
+              <h4 class="card-title">Udemy</h4>
+              <ul class="list-unstyled" style="color:var(red)">
+
+                <li>Front-end Web Development</li>
+
+              </ul>
+              <p class="card-text"><small class="text-muted">Completed in 2022</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 animate__animated animate__fadeInRight" style=" color: var(--other-color)">
+          <div class="card card-body border-0 shadow-lg h-100" style="background-color: var(--project-color); ">
+            <div class="text-center">
+              <span class="badge badge-primary mb-3">Cousera</span>
+              <h4 class="card-title">Coursera</h4>
+              <ul class="list-unstyled">
+                <li>Front-end Web Development</li>
+
+              </ul>
+              <p class="card-text"><small class="text-muted">Completed in 2023</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects ">
+    <div class="container">
+      <h2 class="text-center mb-4" style=" color: var(--other-color)">My Projects</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 project-item animate__animated animate__fadeInRight">
+          <div class="project-image">
+            <img src="work1.jpeg" alt="Project 1">
+          </div>
+          <div class="project-details">
+            <h3 style=" color: var(--other-color);">Educational Website</h3>
+            <p style="color: var(--other-color);">The website effectively showcases the institute and its offerings, while providing a
+              user-friendly and visually appealing online presence.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 project-item">
+          <div class="project-image">
+            <img src="work2.jpeg" alt="Project 2">
+          </div>
+          <div class="project-details">
+            <h3 style="color: var(--other-color)">Real Estate Website </h3>
+            <p style="color: var(--other-color)">The website effectively showcases the buildings and its offerings, while providing a
+              user-friendly and visually appealing online presence.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 project-item">
+          <div class="project-image">
+            <img src="work3.jpeg" alt="Project 3">
+          </div>
+          <div class="project-details">
+            <h3 style="color: var(--other-color)">Quadratic Calculator</h3>
+            <p style="color: var(--other-color)">The website effectively showcases the institute and its functions, while providing a
+              user-friendly and visually appealing online presence.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact">
+    <div class="container">
+      <h2 class="text-center mb-4 animate__animated animate__fadeIn" style="color: var(--other-color)">Get in Touch</h2>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <form id="contact-form" method="post" role="form">
+            <div class="messages"></div>
+            <div class="form-group animate__animated animate__fadeIn">
+              <label for="name" style="color: var(--other-color)">Name</label>
+              <input type="text" class="form-control" id="name" name="name" required
+                data-error="Please enter your name" style="background-color: var(--project-color); color: var(--other-color);">
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group animate__animated animate__fadeIn">
+              <label for="email" style="color: var(--other-color)">Email</label>
+              <input  style="background-color: var(--project-color); color: var(--other-color);" type="email" class="form-control" id="email" name="email" required
+                data-error="Please enter your email" >
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group animate__animated animate__fadeIn">
+              <label for="message" style="color: var(--other-color)">Message</label>
+              <textarea class="form-control" rows="5" id="message" name="message" required
+                data-error="Please enter your message" style="background-color: var(--project-color); color: var(--other-color);"></textarea>
+              <div class="help-block with-errors"></div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg animate__animated animate__fadeIn">Send
+              Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <div style="padding: 10px;"> -->
+  <input type="checkbox" class="fas fa-moon toggle-button" onclick="myFunction()">
+<!-- </div> -->
+
+<div class="b-example-divider"></div>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="text-muted">&copy; JOAN</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="fa-brands fa-twitter" href="https://twitter.com/codesbyjojo"  style="text-decoration: none;"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+      <li class="ms-3"><a class="fa-brands fa-instagram" href="https://www.instagram.com/joanthepowerpuff/"  style="text-decoration: none;"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+      <li class="ms-3"><a class="fa-brands fa-whatsapp" href="https://wa.me/+2348142683230"  style="text-decoration: none;"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+    </ul>
+  </footer>
+</div>
+  <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
